@@ -63,10 +63,8 @@ The email service uses a Gmail SMTP server. **You must use a Google App Password
 ```properties
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-# IMPORTANT: Replace with your actual sender email address
-spring.mail.username=divanshutiwari836@gmail.com
-# IMPORTANT: Replace with your App Password
-spring.mail.password=zqll arvz clnv pycy
+spring.mail.username=***********************
+spring.mail.password=***********************
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
@@ -80,8 +78,8 @@ Ensure you have a MySQL server running and the database schema is created.
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/pay
-spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.username=********
+spring.datasource.password=********
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 # ... JPA Dialect and SQL logging properties

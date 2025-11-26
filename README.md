@@ -52,8 +52,8 @@ All configuration is managed in `src/main/resources/application.properties`.
 Replace these placeholders with your actual Razorpay Test or Production keys.
 
 ```properties
-razorpay.key_id=rzp_test_ReFYSMTcPxXov3
-razorpay.key_secret=xxamroe1VR0IlVqAQeKdoExe
+razorpay.key_id=****************
+razorpay.key_secret=****************
 ````
 
 ### 2\. Email Service Configuration
